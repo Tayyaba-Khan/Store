@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server  --config webpack.dev.config.js --open --hot",
-    "prod": "webpack --config webpack.prod.config.js"
+    "prod": "webpack --config webpack.prod.config.js",
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +28,7 @@
     "style-loader": "^0.23.1"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "react-router-dom": "^4.3.1"
   }
 }

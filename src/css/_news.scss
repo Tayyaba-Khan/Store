@@ -1,0 +1,18 @@
+.mainNews{
+    background-color: #ffc300;
+}
+.newsBtn,.newsInput{
+    outline: none;
+    border: none;
+    border-radius: 0;
+    // font-size: 13px;
+}
+.newsInput{
+    border-radius: 20px 0 0 20px;
+}
+.newsBtn{
+    border-radius: 0 20px 20px 0;
+}
+.newsBtn:hover{
+    background-color: #ffc300;
+}

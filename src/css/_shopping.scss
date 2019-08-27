@@ -1,0 +1,87 @@
+.categorieLine{
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    background: transparent;
+}
+.categoring{
+    font-size: 13px;
+}
+.categorieLine button span{
+    color: black;
+}
+.changespancolor{
+    color: #fec228 !important;
+}
+.color{
+    height:20px;
+    width: 20px;
+}
+.colorOne{
+    background-color: red;
+}
+.colorTwo{
+    background-color: blue;
+}
+.colorThree{
+    background-color: green;
+}
+.colorFour{
+    background-color: chocolate;
+}
+.colorFive{
+    background-color: powderblue;
+}
+.colorSix{
+    background-color: salmon;
+}
+.shopImg{
+    height: 350px;
+    width: 100%;
+}
+.overlayOne{
+    position: absolute;
+    top:5px;
+    left: 10px;
+}
+.overlayTwo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    height: 40px;
+}
+.iconic{
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+    color: #fff;
+    opacity: 0;
+    // vertical-align: center;
+}
+.iconic i{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 19px;
+    height: 40px;
+}
+.iconic i:hover{
+    background-color: #fea710;
+}
+.cardContent:hover .overlayTwo{
+    opacity: 0.5;
+}
+.cardContent:hover .iconic{
+    opacity: 1;
+}
+.pageList:focus,
+.pageList:hover{
+    background-color: #fea710;
+}
+.paging_col{
+    color: #fec228;
+}
